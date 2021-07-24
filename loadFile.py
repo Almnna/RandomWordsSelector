@@ -12,7 +12,7 @@ class Load(object):
     
     def run(self, file=None):
         if(self.file == "" or self.file == None):
-            self.file = input("# please enter words file full path ('Q' -> quit): ")
+            self.file = input("# please enter the full path of the 'words file' ('Q' -> quit): ")
             if (self.file == 'Q' or self.file == 'q'):
                 sys.quit();
             elif self.file == "":
